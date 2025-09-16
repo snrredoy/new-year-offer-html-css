@@ -382,6 +382,141 @@
     flex-wrap: wrap;
 }
 
-.best-gift-items img{
+.best-gift-items img {
     width: 600px;
+}
+
+/* Newslatter */
+
+.newslatter {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    padding: 80px 210px;
+}
+
+.newslatter .newslatter-title {
+    color: #070211;
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
+
+.newslatter .newslatter-description {
+    color: rgba(7, 2, 17, 0.6);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 48px;
+    max-width: 900px;
+    display: inline-block;
+}
+
+.newslatter .newslatter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newslatter .newslatter-form input {
+    border-radius: 50px 0 0 50px;
+    background: #fff;
+    width: 650px;
+    height: 70px;
+    padding-left: 25px;
+    border: none;
+    outline: none;
+}
+
+.newslatter .newslatter-form input::placeholder {
+    font-size: 20px;
+}
+
+.newslatter .newslatter-form button a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.newslatter .newslatter-form button {
+    border-radius: 0 50px 50px 0;
+    background: #f00;
+    width: 210px;
+    height: 70px;
+    border: none;
+}
+
+/* Footer */
+.footer {
+    background: #070211;
+    padding: 120px 140px;
+}
+
+.footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 135px;
+    margin-bottom: 40px;
+}
+
+.footer .footer-address {
+    color: #fff;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    display: inline-block;
+    max-width: 375px;
+}
+
+.footer .footer-contact .number,
+.website {
+    color: #fff;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.footer .footer-social-icons {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 48px 0;
+    text-align: center;
+}
+
+.footer .footer-social-icons img {
+    margin-right: 24px;
+}
+
+.footer .footer-copywrite {
+    color: #fff;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
 }
