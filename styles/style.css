@@ -337,3 +337,51 @@
     width: 100%;
     height: 100%;
 }
+
+/* Best Gift */
+.best-gift {
+    margin: 240px 0 120px 0;
+    padding: 20px;
+}
+
+.best-gift-content .best-gift-content-subtitle {
+    color: #f00;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.best-gift-content .best-gift-content-title {
+    color: #070211;
+    font-family: "Merriweather";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
+
+.best-gift-content .best-gift-content-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 48px;
+    max-width: 900px;
+}
+
+.best-gift .best-gift-items {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.best-gift-items img{
+    width: 600px;
+}
